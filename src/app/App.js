@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import './app.less';
+import '../style/app.less';
 import {Route, BrowserRouter} from "react-router-dom";
 import Home from "./Home";
 

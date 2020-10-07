@@ -1,10 +1,12 @@
 import React from 'react';
-import './home.less';
+import '../style/home.less';
+import Banner from "./Banner";
 
 const Home = () => {
-  return (<div className="home">
-    This is home page
-  </div>);
+  return (
+    <div className="home">
+      <Banner />
+    </div>);
 };
 
 export default Home;
